@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+body {
+    background-image: url(img/Fundo-azul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin: 30px auto;
+    font-weight: bolder;
+    background-color: #000000bd;
+    padding: 10px 120px;
+    border-radius: 15px;
+}
+
+form {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.479);
+    max-height: 600px;
+    max-width: 400px;
+    border-radius: 80px 5px 80px 5px;
+    display: grid;
+    gap: 30px;
+    margin: 124px auto;
+}
+
+form input {
+    color: #fff;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+
+form input:focus {
+    outline: 0;
+    
+}
+
+form input::placeholder{
+    position: absolute;
+    left: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+form input:focus::placeholder {
+    font-size: .5rem;
+    top: 1px;
+}
+
+form button {
+    margin-top: 30px;
+    padding: 10px 50px;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    justify-self: center;
+    transition: .6s ease-in-out;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #17a2c5;
+    color: #fff;
+}
+
+.paragrafo {
+    justify-self: start;
+    color: #fff;
+    text-decoration: none;
+}
+
+.paragrafo p{
+    margin-top: 10px;
+}
+
+.paragrafo a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
